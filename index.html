@@ -1,0 +1,75 @@
+<html lang="eng">
+  <head>
+    <title>Wind Chill Calulator</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  
+  <body>
+    <h1>Wind Chill Calculator</h1>
+    
+    <div>
+      <h2>Tempurature:</h2>
+      
+      <label>
+        Air tempurature:
+        <input type="number" id="temp" required>
+      </label>
+      
+      <label>
+        <input type="radio" id="F" name="tempUnit" value="F" required>
+        Fahrenheit
+      </label>
+      
+      <label>
+        <input type="radio" id="C" name="tempUnit" value="C" required>
+        Celsius
+      </label>
+      
+      <label>
+        <input type="radio" id="K" name="tempUnit" value="K" required>
+        Kelvin
+      </label>
+    </div>
+    
+    <div>
+      <h2>Wind speed:</h2>
+      
+      <label>
+        Wind speed:
+        <input type="number" id="speed" required>
+      </label>
+      
+      <label>
+        <input type="radio" id="MPH" name="speedUnit" value="MPH" required>
+        MPH
+      </label>
+      
+      <label>
+        <input type="radio" id="KTS" name="speedUnit" value="KTS" required>
+        KTS
+      </label>
+      
+      <label>
+        <input type="radio" id="FT/S" name="speedUnit" value="FT/S" required>
+        FT/S
+      </label>
+      
+      <label>
+        <input type="radio" id="KM/H" name="speedUnit" value="KM/H" required>
+        KM/H
+      </label>
+    </div>
+    
+    <div>
+      <h3>Temp in Fahrenheit: <span id="Fahrenheit"></span>.</h3>
+      <h3>Temp in Celsius: <span id="Celsius"></span>.</h3>
+      <h3>Temp in Kelvin: <span id="Kelvin"></span>.</h3>
+      <h3>Feels like <span id="FeelsLikeF"></span> degrees Fahrenheit.</h3>
+      <h3>Feels like <span id="FeelsLikeC"></span> degrees Celsius.</h3>
+      <h3>Feels like <span id="FeelsLikeK"></span> degrees Kelvin.</h3>
+    </div>
+    
+    <input type="button" value="Calculate" onClick="calculate()">
+    <script src="main.js"></script>
+  </body>
+</html>
