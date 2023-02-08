@@ -12,11 +12,11 @@ div {
 }
 
 label {
-  border: 4px solid 'black';
+  border: 4px solid black;
 }
 
 label:hover {
-  border: 4px solid 'black';
-  color: 'orange';
-  background-color: 'dimgrey';
+  border: 4px solid black;
+  color: orange;
+  background-color: dimgray;
 }
