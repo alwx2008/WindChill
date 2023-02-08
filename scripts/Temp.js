@@ -14,3 +14,5 @@ function convertTemp(temp, tempUnit) {
   }
   return F, C, K;
 }
+
+export {convertTemp};
