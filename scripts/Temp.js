@@ -1,7 +1,4 @@
-let temp = document.getElementById('temp');
-let tempUnit = document.getElementsByTagName('tempUnit');
-
-function convertTemp() {
+function convertTemp(temp, tempUnit) {
   if (tempUnit.value == "F") {
     let F = temp.value;
     let C = ( 5 / 9 ) * ( temp.value - 32 );
