@@ -22,3 +22,5 @@ function convertSpeed(speed, speedUnit) {
   }
   return MPH, KTS, FTS, KMH;
 }
+
+export {convertSpeed};
