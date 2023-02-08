@@ -1,3 +1,6 @@
+import { convertTemp } from "./Temp";
+import { convertSpeed } from "./Wind";
+
 let temp = document.getElementById('temp');
 let tempUnit = document.getElementsByTagName('tempUnit');
 let speed = document.getElementById('speed');
