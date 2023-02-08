@@ -1,7 +1,11 @@
+let temp = document.getElementById('temp');
+let tempUnit = document.getElementsByTagName('tempUnit');
+let speed = document.getElementById('speed');
+let speedUnit = document.getElementsByTagName('speedUnit');
 
 function calculate() {
-  convertTemp();
-  convertSpeed();
+  convertTemp(temp, tempUnit);
+  convertSpeed(speed, speedUnit);
   let windChill = (35.74 + (0.6215 * F) - (35.75 * MPH ^ 0.16) + (0.4275 * F * MPH ^ 0.16));
   let Fahrenheit = document.getElementById('Fahrenheit');
   let Celsius = document.getElementById('Celsius');
