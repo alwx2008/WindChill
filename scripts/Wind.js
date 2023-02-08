@@ -1,7 +1,4 @@
-let speed = document.getElementById('speed');
-let speedUnit = document.getElementsByTagName('speedUnit');
-
-function convertSpeed() {
+function convertSpeed(speed, speedUnit) {
   if (speedUnit.value == "MPH") {
     let MPH = speed.value;
     let KTS = 0.8689762 * speed.value;
